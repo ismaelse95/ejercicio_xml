@@ -20,7 +20,15 @@ def contar(texto, busqueda):
 			contador1=contador1 + 1
 	return contador1
 
-#def busc_filt
+def busc_filt(texto, accesorios):
+	acc_miras=texto.xpath('//miras/nombre/arma[text()="{}"]/../@nombre'.format(accesorios))
+	acc_compensador=texto.xpath('//compensador/nombre/arma[text()="{}"]/../@nombre'.format(accesorios))
+	acc_bocacha=texto.xpath('//bocacha/nombre/arma[text()="{}"]/../@nombre'.format(accesorios))
+	lista3=[]
+	lista3.append(acc_miras)
+	lista3.append(acc_bocacha)
+	lista3.append(acc_compensador)
+	return print("Los accesorios de la arma {} son {}".format(accesorios, lista3))
 
 #def busc_info
 

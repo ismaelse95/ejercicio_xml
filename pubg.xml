@@ -166,7 +166,7 @@
 	</municion>
 	<accesorios>
 		<miras>
-			<nombre>Mira Holografica</nombre>
+			<nombre nombre="Mira Holografica">
 				<arma>M16A4</arma>
 				<arma>M249</arma>
 				<arma>M416</arma>
@@ -178,7 +178,8 @@
 				<arma>SKS</arma>
 				<arma>Groza</arma>
 				<arma>MK14</arma>
-			<nombre>Mira punto rojo</nombre>
+			</nombre>
+			<nombre nombre="Mira punto rojo">
 				<arma>P1911</arma>
 				<arma>Tommy Gun</arma>
 				<arma>Vector</arma>
@@ -193,7 +194,8 @@
 				<arma>SKS</arma>
 				<arma>Groza</arma>
 				<arma>MK14</arma>
-			<nombre>Mira x2</nombre>
+			</nombre>
+			<nombre nombre="Mira x2">
 				<arma>M16A4</arma>
 				<arma>M249</arma>
 				<arma>M416</arma>
@@ -203,7 +205,8 @@
 				<arma>M24</arma>
 				<arma>R1895</arma>
 				<arma>SKS</arma>
-			<nombre>Mira x4	</nombre>
+			</nombre>
+			<nombre nombre="Mira x4">
 				<arma>S12K</arma>
 				<arma>M16A4</arma>
 				<arma>M416</arma>
@@ -219,7 +222,8 @@
 				<arma>M24</arma>
 				<arma>R1895</arma>
 				<arma>SKS</arma>
-			<nombre>Mira x8</nombre>
+			</nombre>
+			<nombre nombre="Mira x8">
 				<arma>AWM</arma>
 				<arma>M249</arma>
 				<arma>M416</arma>
@@ -229,7 +233,8 @@
 				<arma>M24</arma>
 				<arma>R1895</arma>
 				<arma>SKS</arma>
-			<nombre>Mira x15</nombre>
+			</nombre>
+			<nombre nombre="Mira x15">
 				<arma>AWM</arma>
 				<arma>M249</arma>
 				<arma>M416</arma>
@@ -239,45 +244,52 @@
 				<arma>M24</arma>
 				<arma>R1895</arma>
 				<arma>SKS</arma>
+			</nombre>
 		</miras>
 		<compensador>
-			<nombre>Compensador rifle asalto</nombre>
+			<nombre nombre="Compensador rifle asalto">
 				<arma>S12K</arma>
 				<arma>M16A4</arma>
 				<arma>M416</arma>
 				<arma>SCAR-L</arma>
 				<arma>AKM</arma>
-			<nombre>Compensador subfusiles</nombre>
+			</nombre>
+			<nombre nombre="Compensador subfusiles">
 				<arma>Micro UZI</arma>
 				<arma>P92</arma>
 				<arma>UMP9</arma>
 				<arma>VSS</arma>
 				<arma>Glock</arma>
-			<nombre>Compensador Rifle Francotirador</nombre>
+			</nombre>
+			<nombre nombre="Compensador Rifle Francotirador">
 				<arma>M24</arma>
 				<arma>AWM</arma>
 				<arma>SKS</arma>
 				<arma>Kar98k</arma>
 				<arma>Mk14</arma>
+			</nombre>
 		</compensador>
 		<bocacha>
-			<nombre>Bocacha de Rifle de asalto</nombre>
+			<nombre nombre="Bocacha de Rifle de asalto">
 				<arma>AKM</arma>
 				<arma>M16A4</arma>
 				<arma>M416</arma>
 				<arma>SCAR-L</arma>
-			<nombre>Bocacha de subfusiles</nombre>
+			</nombre>
+			<nombre nombre="Bocacha de subfusiles">
 				<arma>Micro UZI</arma>
 				<arma>P92</arma>
 				<arma>UMP9</arma>
 				<arma>VSS</arma>
 				<arma>Glock</arma>
-			<nombre>Bocacha de Rifles de francotirador</nombre>
+			</nombre>
+			<nombre nombre="Bocacha de Rifles de francotirador">
 				<arma>M24</arma>
 				<arma>AWM</arma>
 				<arma>SKS</arma>
 				<arma>Kar98k</arma>
 				<arma>Mk14</arma>
+			</nombre>
 		</bocacha>
 	</accesorios>
 </pubg>
