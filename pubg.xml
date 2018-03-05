@@ -3,21 +3,21 @@
 	<mapa nombre="Erangel">
 		<ciudades>
 			<grandes>
-				<nombre>Georgopol</nombre>
-				<nombre>Yasnaya Polyana</nombre>
-				<nombre>Pochinki</nombre>
+				<ciudad>Georgopol</ciudad>
+				<ciudad>Yasnaya Polyana</ciudad>
+				<ciudad>Pochinki</ciudad>
 			</grandes>
 			<pequenas>
-				<nombre>Gatka</nombre>
-				<nombre>Lipoyka</nombre>
-				<nombre>Mylta</nombre>
-				<nombre>Mylta Power</nombre>
-				<nombre>Novorepnoye</nombre>
-				<nombre>Primorsk</nombre>
-				<nombre>Rozhok</nombre>
-				<nombre>Severny</nombre>
-				<nombre>Stalber</nombre>
-				<nombre>Zharki</nombre>
+				<ciudad>Gatka</ciudad>
+				<ciudad>Lipoyka</ciudad>
+				<ciudad>Mylta</ciudad>
+				<ciudad>Mylta Power</ciudad>
+				<ciudad>Novorepnoye</ciudad>
+				<ciudad>Primorsk</ciudad>
+				<ciudad>Rozhok</ciudad>
+				<ciudad>Severny</ciudad>
+				<ciudad>Stalber</ciudad>
+				<ciudad>Zharki</ciudad>
 			</pequenas>
 		</ciudades>
 		<islas>
@@ -64,67 +64,67 @@
 		</cuerpo>
 		<pistolas>
 			<nombre danio="13">P18C</nombre>
-				<cargardor>17 balas</cargardor>
+				<cargador>17 balas</cargador>
 			<nombre danio="24">P1911</nombre>
-				<cargardor>7 balas</cargardor>
+				<cargador>7 balas</cargador>
 			<nombre danio="24">P92</nombre>
-				<cargardor>15 balas</cargardor>
+				<cargador>15 balas</cargador>
 			<nombre danio="38">R1895</nombre>
-				<cargardor>7 balas</cargardor>
+				<cargador>7 balas</cargador>
 		</pistolas>
 		<escopetas>
 			<nombre danio="92">S12K</nombre>
-				<cargardor>5 balas</cargardor>
+				<cargador>5 balas</cargador>
 			<nombre danio="100">S1897</nombre>
-				<cargardor>5 balas</cargardor>
+				<cargador>5 balas</cargador>
 			<nombre danio="100">S686</nombre>
-				<cargardor>2 balas</cargardor>
+				<cargador>2 balas</cargador>
 		</escopetas>
 		<ametralladoras>
 			<nombre danio="40">M249</nombre>
-				<cargardor>100 balas</cargardor>
+				<cargador>100 balas</cargador>
 		</ametralladoras>
 		<arcos>
 			<nombre danio="105">Crossbow</nombre>
-				<cargardor>1 bala</cargardor>
+				<cargador>1 bala</cargador>
 		</arcos>
 		<francotirador>
 			<nombre danio="100">AWM</nombre>
-				<cargardor>5 bala</cargardor>
+				<cargador>5 bala</cargador>
 			<nombre danio="66">Kar 98 Kurz</nombre>
-				<cargardor>5 bala</cargardor>
+				<cargador>5 bala</cargador>
 			<nombre danio="77">M24</nombre>
-				<cargardor>5 bala</cargardor>
+				<cargador>5 bala</cargador>
 			<nombre danio="35">VSS</nombre>
-				<cargardor>10 bala</cargardor>
+				<cargador>10 bala</cargador>
 		</francotirador>
 		<francotirador_auto>
 			<nombre danio="60">MK14</nombre>
-				<cargardor>10 bala</cargardor>
+				<cargador>10 bala</cargador>
 			<nombre danio="50">SKS</nombre>
-				<cargardor>10 bala</cargardor>
+				<cargador>10 bala</cargador>
 		</francotirador_auto>
 		<subfusiles>
 			<nombre danio="21">Micro UZI</nombre>
-				<cargardor>25 bala</cargardor>
+				<cargador>25 bala</cargador>
 			<nombre danio="35">Tommy Gun</nombre>
-				<cargardor>25 bala</cargardor>
+				<cargador>25 bala</cargador>
 			<nombre danio="30">UMP9</nombre>
-				<cargardor>30 bala</cargardor>
+				<cargador>30 bala</cargador>
 			<nombre danio="36">Vector</nombre>
-				<cargardor>13 bala</cargardor>
+				<cargador>13 bala</cargador>
 		</subfusiles>
 		<rifle_asalto>
 			<nombre danio="48">AKM</nombre>
-				<cargardor>30 bala</cargardor>
+				<cargador>30 bala</cargador>
 			<nombre danio="48">Groza</nombre>
-				<cargardor>30 bala</cargardor>
+				<cargador>30 bala</cargador>
 			<nombre danio="37">M16A4</nombre>
-				<cargardor>30 bala</cargardor>
+				<cargador>30 bala</cargador>
 			<nombre danio="37">M416</nombre>
-				<cargardor>30 bala</cargardor>
+				<cargador>30 bala</cargador>
 			<nombre danio="37">SCAR-L</nombre>
-				<cargardor>30 bala</cargardor>
+				<cargador>30 bala</cargador>
 		</rifle_asalto>
 	</armas>
 	<municion>
