@@ -1,5 +1,4 @@
-
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <pubg>
 	<mapa nombre="Erangel">
 		<ciudades>
@@ -8,7 +7,7 @@
 				<nombre>Yasnaya Polyana</nombre>
 				<nombre>Pochinki</nombre>
 			</grandes>
-			<pequeñas>
+			<pequenas>
 				<nombre>Gatka</nombre>
 				<nombre>Lipoyka</nombre>
 				<nombre>Mylta</nombre>
@@ -19,7 +18,7 @@
 				<nombre>Severny</nombre>
 				<nombre>Stalber</nombre>
 				<nombre>Zharki</nombre>
-			</pequeñas>
+			</pequenas>
 		</ciudades>
 		<islas>
 			<referencia>
@@ -58,73 +57,73 @@
 	</arrojadizas>
 	<armas>
 		<cuerpo>
-			<nombre daño="60">Palanca</nombre>
-			<nombre daño="60">Machete</nombre>
-			<nombre daño="80">Sartén</nombre>
-			<nombre daño="60">Hoz</nombre>
+			<nombre danio="60">Palanca</nombre>
+			<nombre danio="60">Machete</nombre>
+			<nombre danio="80">Sartén</nombre>
+			<nombre danio="60">Hoz</nombre>
 		</cuerpo>
 		<pistolas>
-			<nombre daño="13">P18C</nombre>
+			<nombre danio="13">P18C</nombre>
 				<cargardor>17 balas</cargardor>
-			<nombre daño="24">P1911</nombre>
+			<nombre danio="24">P1911</nombre>
 				<cargardor>7 balas</cargardor>
-			<nombre daño="24">P92</nombre>
+			<nombre danio="24">P92</nombre>
 				<cargardor>15 balas</cargardor>
-			<nombre daño="38">R1895</nombre>
+			<nombre danio="38">R1895</nombre>
 				<cargardor>7 balas</cargardor>
 		</pistolas>
 		<escopetas>
-			<nombre daño="92">S12K</nombre>
+			<nombre danio="92">S12K</nombre>
 				<cargardor>5 balas</cargardor>
-			<nombre daño="100">S1897</nombre>
+			<nombre danio="100">S1897</nombre>
 				<cargardor>5 balas</cargardor>
-			<nombre daño="100">S686</nombre>
+			<nombre danio="100">S686</nombre>
 				<cargardor>2 balas</cargardor>
 		</escopetas>
 		<ametralladoras>
-			<nombre daño="40">M249</nombre>
+			<nombre danio="40">M249</nombre>
 				<cargardor>100 balas</cargardor>
 		</ametralladoras>
 		<arcos>
-			<nombre daño="105">Crossbow</nombre>
+			<nombre danio="105">Crossbow</nombre>
 				<cargardor>1 bala</cargardor>
 		</arcos>
 		<francotirador>
-			<nombre daño="100">AWM</nombre>
+			<nombre danio="100">AWM</nombre>
 				<cargardor>5 bala</cargardor>
-			<nombre daño="66">Kar 98 Kurz</nombre>
+			<nombre danio="66">Kar 98 Kurz</nombre>
 				<cargardor>5 bala</cargardor>
-			<nombre daño="77">M24</nombre>
+			<nombre danio="77">M24</nombre>
 				<cargardor>5 bala</cargardor>
-			<nombre daño="35">VSS</nombre>
+			<nombre danio="35">VSS</nombre>
 				<cargardor>10 bala</cargardor>
 		</francotirador>
-		<fracotirador_auto>
-			<nombre daño="60">MK14</nombre>
+		<francotirador_auto>
+			<nombre danio="60">MK14</nombre>
 				<cargardor>10 bala</cargardor>
-			<nombre daño="50">SKS</nombre>
+			<nombre danio="50">SKS</nombre>
 				<cargardor>10 bala</cargardor>
-		</fracotirador_auto>
-		<susfusiles>
-			<nombre daño="21">Micro UZI</nombre>
+		</francotirador_auto>
+		<subfusiles>
+			<nombre danio="21">Micro UZI</nombre>
 				<cargardor>25 bala</cargardor>
-			<nombre daño="35">Tommy Gun</nombre>
+			<nombre danio="35">Tommy Gun</nombre>
 				<cargardor>25 bala</cargardor>
-			<nombre daño="30">UMP9</nombre>
+			<nombre danio="30">UMP9</nombre>
 				<cargardor>30 bala</cargardor>
-			<nombre daño="36">Vector</nombre>
+			<nombre danio="36">Vector</nombre>
 				<cargardor>13 bala</cargardor>
-		</susfusiles>
+		</subfusiles>
 		<rifle_asalto>
-			<nombre daño="48">AKM</nombre>
+			<nombre danio="48">AKM</nombre>
 				<cargardor>30 bala</cargardor>
-			<nombre daño="48">Groza</nombre>
+			<nombre danio="48">Groza</nombre>
 				<cargardor>30 bala</cargardor>
-			<nombre daño="37">M16A4</nombre>
+			<nombre danio="37">M16A4</nombre>
 				<cargardor>30 bala</cargardor>
-			<nombre daño="37">M416</nombre>
+			<nombre danio="37">M416</nombre>
 				<cargardor>30 bala</cargardor>
-			<nombre daño="37">SCAR-L</nombre>
+			<nombre danio="37">SCAR-L</nombre>
 				<cargardor>30 bala</cargardor>
 		</rifle_asalto>
 	</armas>
