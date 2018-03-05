@@ -1,0 +1,284 @@
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pubg>
+	<mapa nombre="Erangel">
+		<ciudades>
+			<grandes>
+				<nombre>Georgopol</nombre>
+				<nombre>Yasnaya Polyana</nombre>
+				<nombre>Pochinki</nombre>
+			</grandes>
+			<pequeñas>
+				<nombre>Gatka</nombre>
+				<nombre>Lipoyka</nombre>
+				<nombre>Mylta</nombre>
+				<nombre>Mylta Power</nombre>
+				<nombre>Novorepnoye</nombre>
+				<nombre>Primorsk</nombre>
+				<nombre>Rozhok</nombre>
+				<nombre>Severny</nombre>
+				<nombre>Stalber</nombre>
+				<nombre>Zharki</nombre>
+			</pequeñas>
+		</ciudades>
+		<islas>
+			<referencia>
+				<nombre>Sosnovka Island</nombre>
+				<nombre>Sosnovka Military Base</nombre>
+			</referencia>
+		</islas>
+	</mapa>
+	<vehiculos>
+		<nombre ocupantes="2">Buggy</nombre>
+			<tipo>Tierra></tipo>
+		<nombre ocupantes="5">UAZ Abierto</nombre>
+			<tipo>Tierra></tipo>
+		<nombre ocupantes="5">UAZ Cerrado</nombre>
+			<tipo>Tierra></tipo>
+		<nombre ocupantes="3">Motocicleta con sidecar</nombre>
+			<tipo>Tierra></tipo>
+		<nombre ocupantes="2">Motocicleta</nombre>
+			<tipo>Tierra></tipo>
+		<nombre ocupantes="4">Dacia 1300</nombre>
+			<tipo>Tierra></tipo>
+		<nombre ocupantes="5">PG-117</nombre>
+			<tipo>Agua></tipo>
+		<nombre ocupantes="100">C-130</nombre>
+			<tipo>Aire></tipo>
+	</vehiculos>
+	<arrojadizas tipo="Granadas">
+		<nombre>Granada de mano</nombre>
+			<capacidad>12</capacidad>
+		<nombre>Coctel molotov</nombre>
+			<capacidad>18</capacidad>
+		<nombre>Granada de humo</nombre>
+			<capacidad>16</capacidad>
+		<nombre>Granada aturdidora</nombre>
+			<capacidad>14</capacidad>
+	</arrojadizas>
+	<armas>
+		<cuerpo>
+			<nombre daño="60">Palanca</nombre>
+			<nombre daño="60">Machete</nombre>
+			<nombre daño="80">Sartén</nombre>
+			<nombre daño="60">Hoz</nombre>
+		</cuerpo>
+		<pistolas>
+			<nombre daño="13">P18C</nombre>
+				<cargardor>17 balas</cargardor>
+			<nombre daño="24">P1911</nombre>
+				<cargardor>7 balas</cargardor>
+			<nombre daño="24">P92</nombre>
+				<cargardor>15 balas</cargardor>
+			<nombre daño="38">R1895</nombre>
+				<cargardor>7 balas</cargardor>
+		</pistolas>
+		<escopetas>
+			<nombre daño="92">S12K</nombre>
+				<cargardor>5 balas</cargardor>
+			<nombre daño="100">S1897</nombre>
+				<cargardor>5 balas</cargardor>
+			<nombre daño="100">S686</nombre>
+				<cargardor>2 balas</cargardor>
+		</escopetas>
+		<ametralladoras>
+			<nombre daño="40">M249</nombre>
+				<cargardor>100 balas</cargardor>
+		</ametralladoras>
+		<arcos>
+			<nombre daño="105">Crossbow</nombre>
+				<cargardor>1 bala</cargardor>
+		</arcos>
+		<francotirador>
+			<nombre daño="100">AWM</nombre>
+				<cargardor>5 bala</cargardor>
+			<nombre daño="66">Kar 98 Kurz</nombre>
+				<cargardor>5 bala</cargardor>
+			<nombre daño="77">M24</nombre>
+				<cargardor>5 bala</cargardor>
+			<nombre daño="35">VSS</nombre>
+				<cargardor>10 bala</cargardor>
+		</francotirador>
+		<fracotirador_auto>
+			<nombre daño="60">MK14</nombre>
+				<cargardor>10 bala</cargardor>
+			<nombre daño="50">SKS</nombre>
+				<cargardor>10 bala</cargardor>
+		</fracotirador_auto>
+		<susfusiles>
+			<nombre daño="21">Micro UZI</nombre>
+				<cargardor>25 bala</cargardor>
+			<nombre daño="35">Tommy Gun</nombre>
+				<cargardor>25 bala</cargardor>
+			<nombre daño="30">UMP9</nombre>
+				<cargardor>30 bala</cargardor>
+			<nombre daño="36">Vector</nombre>
+				<cargardor>13 bala</cargardor>
+		</susfusiles>
+		<rifle_asalto>
+			<nombre daño="48">AKM</nombre>
+				<cargardor>30 bala</cargardor>
+			<nombre daño="48">Groza</nombre>
+				<cargardor>30 bala</cargardor>
+			<nombre daño="37">M16A4</nombre>
+				<cargardor>30 bala</cargardor>
+			<nombre daño="37">M416</nombre>
+				<cargardor>30 bala</cargardor>
+			<nombre daño="37">SCAR-L</nombre>
+				<cargardor>30 bala</cargardor>
+		</rifle_asalto>
+	</armas>
+	<municion>
+		<nombre>.300 Magnum</nombre>
+			<arma>AWM</arma>
+		<nombre>.45 ACP</nombre>
+			<arma>P1911</arma>
+			<arma>Tommy Gun</arma>
+			<arma>Vector</arma>
+		<nombre>Calibre 12</nombre>
+			<arma>S1897</arma>
+			<arma>S686</arma>			
+			<arma>S12K</arma>
+			<arma>M16A4</arma>
+			<arma>M416</arma>
+			<arma>SCAR-L</arma>
+			<arma>AKM</arma>
+		<nombre>5.56mm</nombre>
+			<arma>M16A4</arma>
+			<arma>M249</arma>
+			<arma>M416</arma>
+			<arma>SCAR-L</arma>
+		<nombre>7.62mm</nombre>
+			<arma>AKM</arma>
+			<arma>kar98k</arma>
+			<arma>M24</arma>
+			<arma>R1895</arma>
+			<arma>SKS</arma>
+			<arma>Groza</arma>
+			<arma>MK14</arma>
+		<nombre>9mm</nombre>
+			<arma>Micro UZI</arma>
+			<arma>P92</arma>
+			<arma>UMP9</arma>
+			<arma>VSS</arma>
+			<arma>Glock</arma>
+		<nombre>Flechas</nombre>
+			<arma>Ballesta</arma>
+	</municion>
+	<accesorios>
+		<miras>
+			<nombre>Mira Holografica</nombre>
+				<arma>M16A4</arma>
+				<arma>M249</arma>
+				<arma>M416</arma>
+				<arma>SCAR-L</arma>
+				<arma>AKM</arma>
+				<arma>kar98k</arma>
+				<arma>M24</arma>
+				<arma>R1895</arma>
+				<arma>SKS</arma>
+				<arma>Groza</arma>
+				<arma>MK14</arma>
+			<nombre>Mira punto rojo</nombre>
+				<arma>P1911</arma>
+				<arma>Tommy Gun</arma>
+				<arma>Vector</arma>
+				<arma>M16A4</arma>
+				<arma>M249</arma>
+				<arma>M416</arma>
+				<arma>SCAR-L</arma>
+				<arma>AKM</arma>
+				<arma>kar98k</arma>
+				<arma>M24</arma>
+				<arma>R1895</arma>
+				<arma>SKS</arma>
+				<arma>Groza</arma>
+				<arma>MK14</arma>
+			<nombre>Mira x2</nombre>
+				<arma>M16A4</arma>
+				<arma>M249</arma>
+				<arma>M416</arma>
+				<arma>SCAR-L</arma>
+				<arma>AKM</arma>
+				<arma>kar98k</arma>
+				<arma>M24</arma>
+				<arma>R1895</arma>
+				<arma>SKS</arma>
+			<nombre>Mira x4	</nombre>
+				<arma>S12K</arma>
+				<arma>M16A4</arma>
+				<arma>M416</arma>
+				<arma>SCAR-L</arma>
+				<arma>AKM</arma>
+				<arma>M249</arma>		
+				<arma>S12K</arma>
+				<arma>M16A4</arma>
+				<arma>M416</arma>
+				<arma>SCAR-L</arma>
+				<arma>AKM</arma>
+				<arma>kar98k</arma>
+				<arma>M24</arma>
+				<arma>R1895</arma>
+				<arma>SKS</arma>
+			<nombre>Mira x8</nombre>
+				<arma>AWM</arma>
+				<arma>M249</arma>
+				<arma>M416</arma>
+				<arma>SCAR-L</arma>
+				<arma>AKM</arma>
+				<arma>kar98k</arma>
+				<arma>M24</arma>
+				<arma>R1895</arma>
+				<arma>SKS</arma>
+			<nombre>Mira x15</nombre>
+				<arma>AWM</arma>
+				<arma>M249</arma>
+				<arma>M416</arma>
+				<arma>SCAR-L</arma>
+				<arma>AKM</arma>
+				<arma>kar98k</arma>
+				<arma>M24</arma>
+				<arma>R1895</arma>
+				<arma>SKS</arma>
+		</miras>
+		<compensador>
+			<nombre>Compensador rifle asalto</nombre>
+				<arma>S12K</arma>
+				<arma>M16A4</arma>
+				<arma>M416</arma>
+				<arma>SCAR-L</arma>
+				<arma>AKM</arma>
+			<nombre>Compensador subfusiles</nombre>
+				<arma>Micro UZI</arma>
+				<arma>P92</arma>
+				<arma>UMP9</arma>
+				<arma>VSS</arma>
+				<arma>Glock</arma>
+			<nombre>Compensador Rifle Francotirador</nombre>
+				<arma>M24</arma>
+				<arma>AWM</arma>
+				<arma>SKS</arma>
+				<arma>Kar98k</arma>
+				<arma>Mk14</arma>
+		</compensador>
+		<bocacha>
+			<nombre>Bocacha de Rifle de asalto</nombre>
+				<arma>AKM</arma>
+				<arma>M16A4</arma>
+				<arma>M416</arma>
+				<arma>SCAR-L</arma>
+			<nombre>Bocacha de subfusiles</nombre>
+				<arma>Micro UZI</arma>
+				<arma>P92</arma>
+				<arma>UMP9</arma>
+				<arma>VSS</arma>
+				<arma>Glock</arma>
+			<nombre>Bocacha de Rifles de francotirador</nombre>
+				<arma>M24</arma>
+				<arma>AWM</arma>
+				<arma>SKS</arma>
+				<arma>Kar98k</arma>
+				<arma>Mk14</arma>
+		</bocacha>
+	</accesorios>
+</pubg>
