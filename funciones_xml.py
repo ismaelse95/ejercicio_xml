@@ -30,7 +30,7 @@ def busc_filt(texto, accesorios):
 	cadena4=cadena1+", "+cadena2+", "+cadena3
 	return print("Los accesorios de la arma {} son {}".format(accesorios, cadena4))
 
-def busc_info(texto, arma):
-	nombre=texto.xpath('//armas')
-
-#def libre
+def busc_info(texto, arma, categoria):
+	nombre=texto.xpath('//armas/{}/nombre[text()="{}"]/@danio'.format(categoria, arma))
+	nombre2=("El daño del arma es {}".format(nombre[0]))
+	return nombre2

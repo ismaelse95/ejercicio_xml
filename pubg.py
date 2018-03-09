@@ -1,4 +1,4 @@
-from funciones_xml import lista, contar, busc_filt #, busc_info, libre
+from funciones_xml import lista, contar, busc_filt, busc_info#, libre
 from lxml import etree
 
 arbol=etree.parse('pubg.xml')
@@ -26,9 +26,13 @@ print(busc_filt(arbol, accesorios))
 print("-------------------------------------------------------------")
 
 #Ejercicio 4
-print("Dame el nombre de una arma para saber el daño.")
-arma=input("Nombre: ")
-print(busc_info(arbol, arma))
+print("¿De que categoria es tu arma?")
+print("pistolas, escopetas, ametralladoras, arcos, francotirador, francotirador_auto, subfusiles, rifle_asalto.")
+categoria=input("Nombre categoria: ")
+print(" ")
+print("¿Cual es el arma?")
+arma=input("Nombre del arma: ")
+print(busc_info(arbol, arma, categoria))
 print("-------------------------------------------------------------")
 
 #Ejercicio 5
