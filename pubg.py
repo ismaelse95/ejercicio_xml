@@ -26,3 +26,9 @@ print(busc_filt(arbol, accesorios))
 print("-------------------------------------------------------------")
 
 #Ejercicio 4
+print("Dame el nombre de una arma para saber el daño.")
+arma=input("Nombre: ")
+print(busc_info(arbol, arma))
+print("-------------------------------------------------------------")
+
+#Ejercicio 5

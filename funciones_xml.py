@@ -24,12 +24,13 @@ def busc_filt(texto, accesorios):
 	acc_miras=texto.xpath('//miras/nombre/arma[text()="{}"]/../@nombre'.format(accesorios))
 	acc_compensador=texto.xpath('//compensador/nombre/arma[text()="{}"]/../@nombre'.format(accesorios))
 	acc_bocacha=texto.xpath('//bocacha/nombre/arma[text()="{}"]/../@nombre'.format(accesorios))
-	lista3=[]
-	lista3.append(acc_miras)
-	lista3.append(acc_bocacha)
-	lista3.append(acc_compensador)
-	return print("Los accesorios de la arma {} son {}".format(accesorios, lista3))
+	cadena1=", ".join(acc_miras)
+	cadena2=", ".join(acc_compensador)
+	cadena3=", ".join(acc_bocacha)
+	cadena4=cadena1+", "+cadena2+", "+cadena3
+	return print("Los accesorios de la arma {} son {}".format(accesorios, cadena4))
 
-#def busc_info
+def busc_info(texto, arma):
+	nombre=texto.xpath('//armas')
 
 #def libre
