@@ -1,4 +1,4 @@
-from funciones_xml import lista, contar, busc_filt, busc_info#, libre
+from funciones_xml import libre, lista, contar, busc_filt, busc_info, libre
 from lxml import etree
 
 arbol=etree.parse('pubg.xml')
@@ -36,3 +36,4 @@ print(busc_info(arbol, arma, categoria))
 print("-------------------------------------------------------------")
 
 #Ejercicio 5
+print(libre(arbol))

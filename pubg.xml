@@ -128,13 +128,15 @@
 		</rifle_asalto>
 	</armas>
 	<municion>
-		<nombre>.300 Magnum</nombre>
+		<nombre nombre=".300 Magnum">
 			<arma>AWM</arma>
-		<nombre>.45 ACP</nombre>
+		</nombre>
+		<nombre nombre=".45 ACP">
 			<arma>P1911</arma>
 			<arma>Tommy Gun</arma>
 			<arma>Vector</arma>
-		<nombre>Calibre 12</nombre>
+		</nombre>
+		<nombre nombre="Calibre 12">
 			<arma>S1897</arma>
 			<arma>S686</arma>			
 			<arma>S12K</arma>
@@ -142,12 +144,14 @@
 			<arma>M416</arma>
 			<arma>SCAR-L</arma>
 			<arma>AKM</arma>
-		<nombre>5.56mm</nombre>
+		</nombre>
+		<nombre nombre="5.56mm">
 			<arma>M16A4</arma>
 			<arma>M249</arma>
 			<arma>M416</arma>
 			<arma>SCAR-L</arma>
-		<nombre>7.62mm</nombre>
+		</nombre>
+		<nombre nombre="7.62mm">
 			<arma>AKM</arma>
 			<arma>kar98k</arma>
 			<arma>M24</arma>
@@ -155,14 +159,17 @@
 			<arma>SKS</arma>
 			<arma>Groza</arma>
 			<arma>MK14</arma>
-		<nombre>9mm</nombre>
+		</nombre>
+		<nombre nombre="9mm">
 			<arma>Micro UZI</arma>
 			<arma>P92</arma>
 			<arma>UMP9</arma>
 			<arma>VSS</arma>
 			<arma>Glock</arma>
-		<nombre>Flechas</nombre>
+		</nombre>
+		<nombre nombre="Flechas">
 			<arma>Ballesta</arma>
+		</nombre>
 	</municion>
 	<accesorios>
 		<miras>

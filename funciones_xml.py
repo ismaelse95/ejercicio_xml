@@ -34,3 +34,29 @@ def busc_info(texto, arma, categoria):
 	nombre=texto.xpath('//armas/{}/nombre[text()="{}"]/@danio'.format(categoria, arma))
 	nombre2=("El daño del arma es {}".format(nombre[0]))
 	return nombre2
+
+def libre(texto):
+	municion=texto.xpath('//municion/nombre/@nombre')
+	arma2=texto.xpath('//municion/nombre/arma/text()')
+	municion_arma=[]
+	lista2=[]
+
+	for elem in municion:
+		lista=[]
+		arma=texto.xpath('//municion/nombre[@nombre="{}"]/arma/text()'.format(elem))
+		lista.append(elem)
+		lista.append(arma)
+		municion_arma.append(lista)
+
+	for elem in arma2:
+		lista3=[]
+		arma=texto.xpath('//municion/nombre[@nombre="{}"]/arma/text()'.format(elem))
+		acc_miras=texto.xpath('//miras/nombre/arma[text()="{}"]/../@nombre'.format(elem))
+		acc_compensador=texto.xpath('//compensador/nombre/arma[text()="{}"]/../@nombre'.format(elem))
+		acc_bocacha=texto.xpath('//bocacha/nombre/arma[text()="{}"]/../@nombre'.format(elem))
+		cadena4=len(acc_bocacha)+len(acc_compensador)+len(acc_miras)
+		lista3.append(elem)
+		lista3.append(cadena4)
+		lista2.append(lista3)
+
+	return print("Las municiones de cada arma son: {} y los accesorios que tienen cada arma son: {}".format(municion_arma, lista2))
